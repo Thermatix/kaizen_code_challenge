@@ -1,0 +1,17 @@
+:config:
+  :cookie:
+    :key: 'rack.session'
+    :path: '/'
+  :live_reload:
+    :min_delay:  500    # default 1000
+    :max_delay:  10_000 # default 60_000
+    :live_reload_port: 56789  # default 35729
+    :host:  'localhost:3000'
+    :ignore:
+      -  !ruby/regexp '/.*\.html$/'
+  :server:
+    :handler: 'puma'
+:envs:
+  marvel:
+    :public: 'b9464352a3f6b66f2a59ab4e106b70f7'
+    :private: 'd2cd539847441a25345a156835858974a56d6d66'

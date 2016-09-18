@@ -1,0 +1,42 @@
+.background_top {
+  width: 100%;
+}
+
+.background_bottom {
+  background-color: #2497B8;
+}
+
+.top_container {
+
+}
+
+.bottom_container {
+
+}
+
+.main::before {
+  position: relative;
+  display: inline-block;
+  left: 35%;
+  top: -14em;
+  content: " ";
+  height: 200px;
+  width: 200px;
+  background-image: url("/assets/images/logo.png");
+  background-size: contain;
+}
+.main {
+  position: absolute;
+  padding: 10px;
+  padding-top: 10%;
+  top: 20%;
+  left: 20%;
+  background-image: url("/assets/images/background-ticket.png");
+  border-style: solid;
+  border-color: #FFFFFF;
+  border-width: 10px;
+}
+
+/* .main h3 { */
+/*   text-align: center; */
+/* } */
