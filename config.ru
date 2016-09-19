@@ -33,6 +33,7 @@ Mongoid.load!("#{File.dirname(file)}/mongoid.yml",:development)
 require './middlewares/manifest'
 require 'app_autoloader'
 
+require_relative 'csv_to_db'
 
 Sinatra::Application.reset!
 use Rack::Reloader
