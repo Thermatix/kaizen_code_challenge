@@ -1,6 +1,8 @@
 development:
   clients:
     default:
-      database: 'test'
+      database: 'heroku_98br5f38'
       hosts:
-        - localhost:27017
+        - "@ds035046.mlab.com:35046"
+      user: 'kaizen_test'
+      pass: 'kaizen_test'
