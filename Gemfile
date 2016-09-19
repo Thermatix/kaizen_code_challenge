@@ -3,7 +3,7 @@ source 'https://rubygems.org'
 
 #app
 gem 'rack' , '~> 1.6'
-gem 'sinatra', '~> 1.4'
+gem 'unicorn', '~> 5.1'
 gem "puma", "~> 2.11"
 gem "jwt", "1.5.0"
 gem "curb", "~> 0.8"

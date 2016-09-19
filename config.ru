@@ -1,4 +1,4 @@
-#\ -s puma -o 127.0.0.1 -p 3000 -O Threads=0:16 -O Verbose
+#\ -s unicorn
 
 file = __FILE__
 [File.dirname(file),File.expand_path('../app', file),File.expand_path('../lib', file)].each do |dir|
