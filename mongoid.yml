@@ -3,6 +3,6 @@ development:
     default:
       database: 'heroku_98br5f38'
       hosts:
-        - "@ds035046.mlab.com:35046"
+        - "ds035046.mlab.com:35046"
       user: 'kaizen_test'
       pass: 'kaizen_test'
