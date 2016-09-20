@@ -1,6 +1,5 @@
 require 'csv'
 require 'mongoid'
-unless Lotto_Result.find(id: 1)
 
   root_path = File.dirname(__FILE__)
 
@@ -19,4 +18,3 @@ unless Lotto_Result.find(id: 1)
     )
 
   end
-end
