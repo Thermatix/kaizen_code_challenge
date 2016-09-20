@@ -1,14 +1,11 @@
+require 'csv'
+require 'mongoid'
 unless Lotto_Result.find(id: 1)
-  require 'csv'
-  require 'mongoid'
 
   root_path = File.dirname(__FILE__)
 
   Mongoid.load!("#{root_path}/mongoid.yml", :development )
-
-  require "#{root_path}/app/decorators/lotto_results"
-  require "#{root_path}/app/models/lotto_results"
-
+  
   CSV.foreach("lotto_res.csv",{headers: false}) do |lotto_res|
     d,d2 = lotto_res[0].split('|')
     Lotto_Result.create(
