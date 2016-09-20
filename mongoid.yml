@@ -6,4 +6,6 @@ development:
         - "ds035046.mlab.com:35046"
       user: 'kaizen_test'
       pass: 'kaizen_test'
-      auth_mech: :scram
+      options:
+        skip_version_check: true
+        safe: true
