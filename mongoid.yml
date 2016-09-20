@@ -1,11 +1,12 @@
 development:
   clients:
     default:
-      database: 'heroku_98br5f38'
-      hosts:
-        - "ds035046.mlab.com:35046"
-      user: 'kaizen_test'
-      pass: 'kaizen_test'
+      uri:  <%= ENV['MONGOLAB_URI'] %>
+      # database: 'heroku_98br5f38'
+      # hosts:
+        # - "ds035046.mlab.com:35046"
+      # user: 'kaizen_test'
+      # pass: 'kaizen_test'
       options:
         skip_version_check: true
         safe: true
