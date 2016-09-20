@@ -1,4 +1,4 @@
-unless Lotto_Result.first
+unless Lotto_Result[0]
   require 'csv'
   require 'mongoid'
 
