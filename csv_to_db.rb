@@ -1,4 +1,4 @@
-unless Lotto_Result[0]
+unless Lotto_Result.find(id: 1)
   require 'csv'
   require 'mongoid'
 
