@@ -36,7 +36,7 @@ module Asset_Pipeline
             #set up asset root folder
             env.append_path settings.asset_folder
             #set up compressers and pre-proccessors
-            env.js_compressor = YUI::JavaScriptCompressor.new unless ENV['RACK_ENV'] != 'production'
+            env.js_compressor = :uglify # YUI::JavaScriptCompressor.new unless ENV['RACK_ENV'] != 'production'
             env.css_compressor = :sass
           end
         }
