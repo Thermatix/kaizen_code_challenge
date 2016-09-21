@@ -1,5 +1,5 @@
 require 'asset_mime_types'
-%w{yui/compressor sass sprockets-helpers opal}.each do |lib|
+%w{uglifier sass sprockets-helpers opal}.each do |lib|
   require lib
 end
 module Asset_Pipeline
