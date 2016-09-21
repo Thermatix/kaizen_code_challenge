@@ -1,5 +1,4 @@
 development:
   clients:
     default:
-      database: 'heroku_98br5f38'
-      uri:  <%= ENV['MONGOLAB_URI'] %>
+      uri:  <%= ENV['MONGODB_URI'] %>
