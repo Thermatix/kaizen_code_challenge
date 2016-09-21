@@ -16,7 +16,8 @@ gem 'foreman', '0.82.0'
 gem 'sprockets', '~> 3.4'
 gem 'sprockets-helpers', '~> 1.2'
 gem 'sass', '~> 3.4'
-gem 'yui-compressor', '~> 0.12'
+# gem 'yui-compressor', '~> 0.12'
+gem 'uglifier', '~> 2.7'
 gem 'easy_set', ' ~> 0.1'
 
 # front end
