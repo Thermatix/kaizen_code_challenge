@@ -1,4 +1,4 @@
-#\ -s puma -p 3000 -O Threads=0:16 -O Verbose
+#\ -s puma -p $PORT -O Threads=0:16 -O Verbose
 
 file = __FILE__
 [File.dirname(file),File.expand_path('../app', file),File.expand_path('../lib', file)].each do |dir|
