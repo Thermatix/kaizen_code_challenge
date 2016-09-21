@@ -10,6 +10,7 @@ gem "curb", "~> 0.8"
 gem 'grape', '~> 0.16'
 gem 'grape-entity', '~> 0.5'
 gem 'mongoid','~> 5.1'
+gem 'foreman', '0.82.0'
 
 # assets
 gem 'sprockets', '~> 3.4'
